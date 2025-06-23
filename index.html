@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='style.css'>
+
+</head>
+<body>
+
+    <video autoplay muted loop class="bg-video">
+    <source src="https://videos.pexels.com/video-files/1730393/1730393-uhd_2560_1440_25fps.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+    </video>
+
+<header>
+    <h1 class="heading glassmorphism">WEATHER APP</h1>
+</header>
+
+<div class="main">
+
+<div class="section1">
+
+    <div class="date glassmorphism">
+        <h3>loading...</h3>
+    </div>
+
+    <div class="time glassmorphism">
+        <h3>loading...</h3>
+    </div>
+
+</div>
+
+ <div class="card glassmorphism">
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false" class="glassmorphism">
+        <button class="glassmorphism"><img src="Assets/search.png" alt=""></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        <div class="weather">
+            <img src="Assets/rain.png" class="weather-icon">
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">Ahmedabad</h2>
+            <div class="details">
+
+                <div class="col">
+                    <img src="Assets/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="Assets/wind.png" alt="">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="sideBar glassmorphism">
+        <h2>Top Cities</h2>
+
+        <div class="sideCards-Contain">
+            <div class="city-cards glassmorphism" id="card-newyork">
+
+                <img src="Assets/rain.png" class="S_weather-icon">
+                <h3 class="S_temp">22°c</h3>
+                <h4 class="S_city">New York</h4>
+
+                
+            </div>
+                    <div class="city-cards glassmorphism" id="card-america">
+
+                        <img src="Assets/rain.png" class="S_weather-icon">
+                        <h3 class="S_temp">22°c</h3>
+                        <h4 class="S_city">America</h4>
+
+                
+            </div>
+                    <div class="city-cards glassmorphism" id="card-tokyo">
+
+                        <img src="Assets/rain.png" class="S_weather-icon">
+                        <h3 class="S_temp">22°c</h3>
+                        <h4 class="S_city">Tokyo</h4>
+
+                
+            </div>
+        </div>
+    </div>
+
+</div>
+        <script src='main.js'></script>
+</body>
+</html>
