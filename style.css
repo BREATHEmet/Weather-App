@@ -166,6 +166,7 @@ body {
     color: #ffffff;
     padding: 10px 25px;
     height: 60px;
+    min-width: 0;
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
@@ -180,6 +181,7 @@ body {
     min-width: 60px;
     height: 60px;
     cursor: pointer;
+    flex-shrink: 0;
     transition: all 0.3s ease;
 }
 .search button img{
@@ -247,6 +249,7 @@ body {
 
   .search input, .search button {
     margin: 8px 0;
+      width: 100%;
   }
   .sideBar{
     width: 100%;
