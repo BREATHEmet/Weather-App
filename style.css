@@ -177,7 +177,6 @@ body {
     outline: 0;
 
     border-radius: 50%;
-    width: 60px;
     height: 60px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -275,6 +274,5 @@ body {
     flex-direction: row;
     gap: 1rem;
     width: 100%;
-    position: sticky;
   }
 }
